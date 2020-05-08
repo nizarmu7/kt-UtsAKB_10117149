@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Profile MU</string>
+    <string name="sp1">Profile MU</string>
+    <string name="sp2">My Profile Is My Life</string>
+    <string name="w1a">HOME</string>
+    <string name="w1b">Menampilkan Deskripsi Tentang Saya</string>
+    <string name="w2a">Daily Activity</string>
+    <string name="w2b">Menampilkan Aktivitas Sehari-hari Saya</string>
+    <string name="w3a">Gallery</string>
+    <string name="w3b">Menampilakn Koleksi Gambar Saya</string>
+</resources>
