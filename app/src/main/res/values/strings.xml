@@ -7,5 +7,9 @@
     <string name="w2a">Daily Activity</string>
     <string name="w2b">Menampilkan Aktivitas Sehari-hari Saya</string>
     <string name="w3a">Gallery</string>
-    <string name="w3b">Menampilakn Koleksi Gambar Saya</string>
+    <string name="w3b">Menampilkan Koleksi Gambar Saya</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_daily">Daily</string>
+    <string name="menu_media">Media</string>
+    <string name="menu_profile">Profile</string>
 </resources>
