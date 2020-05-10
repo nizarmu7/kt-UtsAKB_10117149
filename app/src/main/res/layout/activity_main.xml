@@ -8,14 +8,14 @@
     tools:context=".MainActivity" >
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView100"
         android:layout_width="381dp"
         android:layout_height="218dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:src="@drawable/logome"
+        android:src="@drawable/naruto"
         app:civ_border_color="@color/white"
         app:civ_border_width="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="0.356" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView100"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -39,9 +39,10 @@
         app:fontFamily="@font/sweetystrawberry"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView100" />
 
     <TextView
+        android:id="@+id/textView200"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -55,6 +56,6 @@
         app:fontFamily="@font/startrack"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView100" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
