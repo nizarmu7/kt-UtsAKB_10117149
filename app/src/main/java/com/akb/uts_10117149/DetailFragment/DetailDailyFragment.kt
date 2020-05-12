@@ -28,7 +28,7 @@ class DetailDailyFragment : Fragment() {
         ModelDaily("Sahur", "Sahur Untuk Berpuasa", "03.30", R.drawable.nasi),
         ModelDaily("Sholat Subuh", "Beribadah Wajib Setiap Subuh", "04.30", R.drawable.mosque),
         ModelDaily("Bermain HP", "Melihat Social Media", "05.00", R.drawable.smartphone),
-        ModelDaily("Merawat Burung", "Memberikan Makan & Minum", "6.30", R.drawable.burung),
+        ModelDaily("Merawat Burung", "Memberikan Makan & Minum", "06.30", R.drawable.burung),
         ModelDaily("Bermain HP & Komputer", "Belajar & Melihat Social Media", "07.00", R.drawable.multipledevices),
         ModelDaily("Sholat Dzuhur", "Beribadah Wajib Setiap Dzuhur", "11.45", R.drawable.mosque),
         ModelDaily("Bermain HP & Komputer", "Belajar & Melihat Social Media", "12.15", R.drawable.multipledevices),
