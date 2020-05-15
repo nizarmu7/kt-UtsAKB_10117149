@@ -40,6 +40,7 @@ class MediaFragment : Fragment() {
             val dailyFragment = DetailGalleryFragment()
             val fragmentManager = fragmentManager
             val fragmentTransaction = fragmentManager?.beginTransaction()
+            fragmentTransaction!!.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_right, R.anim.enter_from_right, R.anim.exit_to_right)
             fragmentTransaction?.replace(
                 R.id.container,
                 dailyFragment,
@@ -53,6 +54,7 @@ class MediaFragment : Fragment() {
             val dailyFragment = DetailMusicFragment()
             val fragmentManager = fragmentManager
             val fragmentTransaction = fragmentManager?.beginTransaction()
+            fragmentTransaction!!.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_right, R.anim.enter_from_right, R.anim.exit_to_right)
             fragmentTransaction?.replace(
                 R.id.container,
                 dailyFragment,
@@ -66,6 +68,7 @@ class MediaFragment : Fragment() {
             val dailyFragment = DetailVideoFragment()
             val fragmentManager = fragmentManager
             val fragmentTransaction = fragmentManager?.beginTransaction()
+            fragmentTransaction!!.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_right, R.anim.enter_from_right, R.anim.exit_to_right)
             fragmentTransaction?.replace(
                 R.id.container,
                 dailyFragment,

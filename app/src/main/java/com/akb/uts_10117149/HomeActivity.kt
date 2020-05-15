@@ -19,25 +19,41 @@ class HomeActivity : AppCompatActivity() {
         when (item.itemId) {
             R.id.nav_home -> {
                 val fragment = HomeFragment()
-                supportFragmentManager.beginTransaction().replace(R.id.container, fragment, fragment.javaClass.getSimpleName())
+                supportFragmentManager.beginTransaction().setCustomAnimations(
+                    R.anim.enter_from_right,
+                    R.anim.exit_to_right,
+                    R.anim.enter_from_right,
+                    R.anim.exit_to_right).replace(R.id.container, fragment, fragment.javaClass.getSimpleName())
                     .commit()
                 return@OnNavigationItemSelectedListener true
             }
             R.id.nav_daily -> {
                 val fragment = DailyFragment()
-                supportFragmentManager.beginTransaction().replace(R.id.container, fragment, fragment.javaClass.getSimpleName())
+                supportFragmentManager.beginTransaction().setCustomAnimations(
+                    R.anim.enter_from_right,
+                    R.anim.exit_to_right,
+                    R.anim.enter_from_right,
+                    R.anim.exit_to_right).replace(R.id.container, fragment, fragment.javaClass.getSimpleName())
                     .commit()
                 return@OnNavigationItemSelectedListener true
             }
             R.id.nav_media -> {
                 val fragment = MediaFragment()
-                supportFragmentManager.beginTransaction().replace(R.id.container, fragment, fragment.javaClass.getSimpleName())
+                supportFragmentManager.beginTransaction().setCustomAnimations(
+                    R.anim.enter_from_right,
+                    R.anim.exit_to_right,
+                    R.anim.enter_from_right,
+                    R.anim.exit_to_right).replace(R.id.container, fragment, fragment.javaClass.getSimpleName())
                     .commit()
                 return@OnNavigationItemSelectedListener true
             }
             R.id.nav_profile -> {
                 val fragment = ProfileFragment()
-                supportFragmentManager.beginTransaction().replace(R.id.container, fragment, fragment.javaClass.getSimpleName())
+                supportFragmentManager.beginTransaction().setCustomAnimations(
+                    R.anim.enter_from_right,
+                    R.anim.exit_to_right,
+                    R.anim.enter_from_right,
+                    R.anim.exit_to_right).replace(R.id.container, fragment, fragment.javaClass.getSimpleName())
                     .commit()
                 return@OnNavigationItemSelectedListener true
             }

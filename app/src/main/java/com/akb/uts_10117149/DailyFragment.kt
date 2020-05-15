@@ -39,6 +39,7 @@ class DailyFragment : Fragment() {
             val dailyFragment = DetailDailyFragment()
             val fragmentManager = fragmentManager
             val fragmentTransaction = fragmentManager?.beginTransaction()
+            fragmentTransaction!!.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_right, R.anim.enter_from_right, R.anim.exit_to_right)
             fragmentTransaction?.replace(
                 R.id.container,
                 dailyFragment,
@@ -52,6 +53,7 @@ class DailyFragment : Fragment() {
             val dailyFragment = DetailFriendFragment()
             val fragmentManager = fragmentManager
             val fragmentTransaction = fragmentManager?.beginTransaction()
+            fragmentTransaction!!.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_right, R.anim.enter_from_right, R.anim.exit_to_right)
             fragmentTransaction?.replace(
                 R.id.container,
                 dailyFragment,
